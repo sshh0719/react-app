@@ -1,0 +1,19 @@
+<body>
+    <script>
+        console.log(this);
+
+        // function fun(){
+        //     console.log
+        // }
+
+        class A {
+            run(){
+                console.log(this);
+            }
+        }
+        const a = new A()
+        a.run();
+
+        new A().run();
+    </script>
+</body>
