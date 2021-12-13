@@ -7,7 +7,7 @@ import Control from './Control';
 import CreateContent from './CreateContent';
 import UpdateContent from './UpdateContent';
 
-//클래스 방식으로 사용(App)
+//클래스 방식으로 사용(App).
 class App extends Component {
 
   //props : 부모컴포넌트 -> 자식 컴포넌트
